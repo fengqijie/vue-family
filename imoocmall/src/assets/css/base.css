@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 14px;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+*::selection {
+    background-color: limegreen;
+    color: #fff;
+}
+
+*::-moz-selection {
+    background-color: limegreen;
+    color: #fff;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    border: 0;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    color: #333;
+    font-family: "PingFang SC", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", STHeiti, sans-serif !important;
+}
+
+button,
+input[type=button],
+input[type=reset],
+input[type=submit] {
+    cursor: pointer;
+    -webkit-appearance: button;
+}
+
+input:not([type=radio]) {
+    -webkit-appearance: none !important;
+    border-radius: 0;
+    outline: none;
+}
+
+button,
+a {
+    outline: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix::before,
+.clearfix::after {
+    display: block;
+    content: "";
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+/*input placeholder 的颜色控制*/
+
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #c9c9c9;
+    font-weight: normal !important;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #c9c9c9;
+    font-weight: normal !important;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #c9c9c9;
+    font-weight: normal !important;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #c9c9c9;
+    font-weight: normal !important;
+}
+
+.color_six {
+    color: #666666 !important;
+}
+
+.color_nine {
+    color: #999999 !important;
+}
+
+.none {
+    display: none;
+}
+
+.red {
+    color: #f02345 !important;
+}
+
+[v-cloak] {
+    display: none;
+}
